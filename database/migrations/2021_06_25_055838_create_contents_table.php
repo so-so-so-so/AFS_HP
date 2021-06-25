@@ -15,20 +15,20 @@ class CreateContentsTable extends Migration
   {
     Schema::create('contents', function (Blueprint $table) {
       $table->Increments('id');
-      $table->unsignedInteger('contents_category');
+      $table->unsignedInteger('contents_category')->nullable();
       $table->string('title', 255);
-      $table->text('content');
-      $table->unsignedInteger('news_category');
-      $table->string('image_path', 255);
-      $table->string('video_url', 255);
-      $table->unsignedInteger('applicant_id');
-      $table->unsignedInteger('process_status');
-      $table->boolean('already_read_status');
-      $table->unsignedInteger('approver_id');
-      $table->integer('trace_contents_id');
-      $table->string('reason_disapproval', 255);
+      $table->text('content')->nullable();
+      $table->unsignedInteger('news_category')->nullable();
+      $table->string('image_path', 255)->nullable();
+      $table->string('video_url', 255)->nullable();
+      $table->unsignedInteger('applicant_id')->nullable();
+      $table->unsignedInteger('process_status')->nullable();
+      $table->boolean('already_read_status')->nullable();
+      $table->unsignedInteger('approver_id')->nullable();
+      $table->integer('trace_contents_id')->nullable();
+      $table->string('reason_disapproval', 255)->nullable();
       $table->timestamps();
-      $table->dateTime('released_at');
+      $table->dateTime('released_at')->nullable();
       $table->softDeletes();
       //外部キー
       $table->foreign('contents_category')->references('id')->on('contents_categories');
