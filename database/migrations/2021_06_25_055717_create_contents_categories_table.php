@@ -13,7 +13,7 @@ class CreateContentsCategoriesTable extends Migration
    */
   public function up()
   {
-    Schema::create('contents_categories', function (Blueprint $table) {
+    Schema::create('contents_category', function (Blueprint $table) {
       $table->Increments('id');
       $table->string('name', 20);
     });

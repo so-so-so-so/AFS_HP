@@ -13,7 +13,7 @@ class CreateProcessStatusesTable extends Migration
    */
   public function up()
   {
-    Schema::create('process_statuses', function (Blueprint $table) {
+    Schema::create('process_status', function (Blueprint $table) {
       $table->Increments('id');
       $table->string('name', 10);
     });
