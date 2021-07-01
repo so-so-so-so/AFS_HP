@@ -13,3 +13,4 @@
 
 //トップページ
 Route::get('/', 'AFSmainController@index');
+Route::get('/result','AFSmainController@result');
