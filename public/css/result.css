@@ -1,0 +1,37 @@
+.tournament_area{
+    text-align: center;
+}
+
+.higher{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.higher img{
+    width: 20%;
+    margin: 0 2.5%;
+}
+
+h2{
+    margin-left: 10%;
+}
+
+.tournament_result{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tournament_result p{
+    text-align: center;
+    margin:auto 10% auto 10%; 
+    font-size: 40px;
+}
+
+.qualifyin_gresult{
+    
+}

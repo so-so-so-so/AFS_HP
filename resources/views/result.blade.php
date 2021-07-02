@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>
+
+        </title>
+
+        <link href="css/result.css" rel="stylesheet">
     </head>
     <body>
         <header>
         
         </header>
-        
+
         <h2>大会結果</h2>
 
-        <div><img src="img/tournament.png" alt="トーナメント表"></div>
+        <div class="tournament_area"><img src="img/tournament.png" alt="トーナメント表"></div>
 
-        <div>
+        <div class="higher">
             <img src="img/icon.png" alt="top8">
             <img src="img/icon.png" alt="top8">
             <img src="img/icon.png" alt="top8">
@@ -23,8 +27,10 @@
             <img src="img/icon.png" alt="top8">
         </div>
 
-        <div>
-            <h2>決勝戦</h2>
+        
+
+        <h2>決勝戦</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -38,8 +44,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準決勝第一試合</h2>
+        <h2>準決勝第一試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -53,8 +59,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準決勝第二試合</h2>
+        <h2>準決勝第二試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -68,8 +74,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準々決勝第一試合</h2>
+        <h2>準々決勝第一試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -83,8 +89,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準々決勝第二試合</h2>
+        <h2>準々決勝第二試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -98,8 +104,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準々決勝第三試合</h2>
+        <h2>準々決勝第三試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -113,8 +119,8 @@
             </div>
         </div>
 
-        <div>
-            <h2>準々決勝第四試合</h2>
+        <h2>準々決勝第四試合</h2>
+        <div class="tournament_result">
             <div>
                 <img src="img/icon.png" alt="">
                 <p>○○</p>
@@ -128,7 +134,7 @@
             </div>
         </div>
 
-        <h2>予選結果</h2>
+        <h2 class="qualifyin_gresult">予選結果</h2>
         @php
         $group = [
             1 => 'A',
