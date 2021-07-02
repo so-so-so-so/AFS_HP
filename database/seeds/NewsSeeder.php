@@ -12,7 +12,7 @@ class NewsSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('news_category')->insert([
+        DB::table('news_categories')->insert([
         [
             'id'=>'1',
             'name'=>'AEONついに倒産か？？',
