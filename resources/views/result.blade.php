@@ -17,14 +17,14 @@
         <div class="tournament_area"><img src="img/tournament.png" alt="トーナメント表"></div>
 
         <div class="higher">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
-            <img src="img/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
+            <img src="images/icon.png" alt="top8">
         </div>
 
         
@@ -32,14 +32,14 @@
         <h2>決勝戦</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -47,14 +47,14 @@
         <h2>準決勝第一試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -62,14 +62,14 @@
         <h2>準決勝第二試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -77,14 +77,14 @@
         <h2>準々決勝第一試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -92,14 +92,14 @@
         <h2>準々決勝第二試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -107,14 +107,14 @@
         <h2>準々決勝第三試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
@@ -122,19 +122,19 @@
         <h2>準々決勝第四試合</h2>
         <div class="tournament_result">
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>○○</p>
             </div>
             
             <p>VS</p>
 
             <div>
-                <img src="img/icon.png" alt="">
+            <img src="images/icon.png" alt="top8">
                 <p>△△</p>        
             </div>
         </div>
 
-        <h2 class="qualifyin_gresult">予選結果</h2>
+        <h2 class="">予選結果</h2>
         @php
         $group = [
             1 => 'A',
@@ -148,26 +148,28 @@
         ];
         @endphp
         @for($i = 1; $i < 9; $i++)
-        <h3>{{$group[$i]}}グループ</h3>
-        <div>
-            @for($n = 0; $n < 8; $n++)
-            ほげほげ,
+        <div class="qualifyin_gresult">
+            <h3>{{$group[$i]}}グループ</h3>
+            <div>
+                @for($n = 0; $n < 8; $n++)
+                ほげほげ,
+                @endfor
+            </div>
             @endfor
         </div>
-        @endfor
 
         <h2>上位者インタビュー</h2>
 
-        <div>
-            <img src="img/icon.png" alt=""><p>ほげほげ</p>
+        <div class="interview">
+        <img src="images/icon.png" alt="top8">
             <p>hoge...................................</p>
         </div>
         <div>
-            <img src="img/icon.png" alt=""><p>ほげほげ</p>
+        <img src="images/icon.png" alt="top8">
             <p>hoge...................................</p>
         </div>
         <div>
-            <img src="img/icon.png" alt=""><p>ほげほげ</p>
+        <img src="images/icon.png" alt="top8">
             <p>hoge...................................</p>
         </div>
 
