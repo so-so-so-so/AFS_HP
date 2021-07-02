@@ -14,3 +14,4 @@
 //トップページ
 Route::get('/', 'AFSmainController@index');
 Route::get('/result','AFSmainController@result');
+Route::get('/gallery','AFSmainController@gallery');

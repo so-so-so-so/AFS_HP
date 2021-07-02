@@ -17,4 +17,8 @@ class AFSmainController extends Controller
     public function result(){
         return view('result');
     }
+
+    public function gallery(){
+        return view('gallery');
+    }
 }
