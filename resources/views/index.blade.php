@@ -191,9 +191,6 @@
 
         <div>
             <ul>
-                @foreach($news as $news=>$list)
-                <li>{{ $list->getall()>}}</li>
-                @endforeach
             </ul>
         </div>
 

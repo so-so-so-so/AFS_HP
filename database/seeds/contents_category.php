@@ -12,6 +12,6 @@ class contents_category extends Seeder
     public function run()
     {
         //
-        DB::table('')
+        DB::table('');
     }
 }

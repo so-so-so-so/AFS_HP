@@ -13,4 +13,12 @@ class AFSmainController extends Controller
         $data = ['news'=>$news];
         return view('index',$data);
     }
+
+    public function result(){
+        return view('result');
+    }
+
+    public function gallery(){
+        return view('gallery');
+    }
 }
