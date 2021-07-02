@@ -258,15 +258,17 @@
     <!-- Gコンテンツ2 -->
     <div class="news">
       <h1 id="news">ニュース</h1>
-
-      <div class="news-list">
-        <small class="date">YYYY/MM/dd</small>
-        <h2>ニュースタイトル</h2>
-        <form action="">
+      @for ($i = 0 ; $i < 3;$i++) <div class="news-list">
+        <small class="date">{{$news[$i]->released_at}}</small>
+        <h2>{{$news[$i]->title}}</h2>
+        <form method="POST" action="/detail">
+          @csrf
+          <input name="id" type="hidden" value="{{$news[$i]->id}}">
           <input type="submit" value="詳細へ">
         </form>
-      </div>
-
+    </div>
+    @endfor
+    <a href="/news">詳細</a>
     </div>
 
   </main>

@@ -12,7 +12,7 @@ class AFSmainController extends Controller
   public function index()
   {
     // $news = DB::select('select title,content,news_category,image_path,video_url FROM contents');
-    $news = Content::orderBy('created_at', 'desc')->paginate(6);
+    $news = Content::all();
     $data = ['news' => $news];
     return view('index', $data);
   }
@@ -22,11 +22,11 @@ class AFSmainController extends Controller
     $data = ['news' => $news];
     return view('news', $data);
   }
-  public function news_detail(Request $request)
+  public function detail(Request $request)
   {
-    $news = Content::where('id', $request)->get();
+    $news = Content::where('id', $request->id)->get();
     $data = ['news' => $news];
-    return view('news', $data);
+    return view('news_detail', $data);
   }
   public function result()
   {

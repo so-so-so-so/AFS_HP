@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+  {{$news}}
 </body>
 
 </html>
