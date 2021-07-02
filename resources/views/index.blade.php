@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>>AEON Financial Service X HAL東京 パズドラカップ</title>
+    <title>AEON Financial Service X HAL東京 パズドラカップ</title>
     <link rel="stylesheet" href="css/sanitize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>ゲスト</li>
-                <li>ギャラリー</li>
-                <li>大会結果</li>
-                <li>ニュース</li>
+        <div class="logo">
+            <img src="images/aeonxhal_logo.png" alt="サイトロゴ">
+        </div>
+        <nav class="header-navigation">
+            <ul class="left">
+                <li class="left-first"><a href="#">HOME</a></li>
                 <li>
-                    <ul>
-                        <li>Youtube</li>
-                        <li>Twitter</li>
+                    <ul class="left-second">
+                        <li><a href="#">大会ルール</a></li>
+                        <li><a href="#">賞品</a></li>
+                        <li><a href="#">ゲスト</a></li>
+                        <li><a href="#">大会結果</a></li>
+                        <li><a href="#">ギャラリー</a></li>
+                        <li><a href="#">大会ダイジェストムービー</a></li>
+                        <li><a href="#">ニュース</a></li>
                     </ul>
                 </li>
-                <li>LPリンク</li>
-                <li><span>企業賞品紹介</span></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#">企業商品紹介</a></li>
+                <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+                <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
             </ul>
         </nav>
     </header>
 
     <div class="mainvisual">
-        <p>メインビジュアル</p>
+        <p><img src="images/mainvisual.png" alt="メインビジュアル"></p>
     </div>
 
     <main>
@@ -41,7 +49,7 @@
         <div class="bg1"></div>
 
         <!-- Fコンテンツ1 -->
-        <h1>大会ルール</h1>
+        <h1 id="rules">大会ルール</h1>
         <div class="rules">
             <div class="row1">
                 <div class="left">
@@ -52,12 +60,12 @@
                     <p class="activate-modal1">ルール詳細を見る ></p>
                 </div>
                 <div class="right">
-                    <img src="images/劫火の威女神・カーリー.png" alt="闇カーリー">
+                    <img src="images/darkcarly.png" alt="闇カーリー">
                 </div>
             </div>
             <div class="row2">
                 <div class="left">
-                    <img src="images/鍛煉神・ヘパイストス＝ドラゴン.png" alt="ヘパイストス＝ドラゴン">
+                    <img src="images/hephaestusdragon.png" alt="ヘパイストス＝ドラゴン">
                 </div>
                 <div class="right">
                     <h2>・最終予選<span>「タイムアタック」</span></h2>
@@ -79,7 +87,7 @@
                     <p class="activate-modal3">ルール詳細を見る ></p>
                 </div>
                 <div class="right">
-                    <img src="images/綺羅の秘女神・カーリー.png" alt="光カーリー">
+                    <img src="images/lightcarly.png" alt="光カーリー">
                 </div>
             </div>
         </div>
@@ -89,27 +97,27 @@
             <p><a href="#" target="_blank" rel=”noopener noreferrer”>大会規約(PDF)　></a></p>
         </div>
 
-        <!-- パララックス背景1 -->
+        <!-- パララックス背景2 -->
         <div class="bg2"></div>
 
         <!-- Uコンテンツ1 -->
         <div class="prize">
-            <h1>賞品</h1>
+            <h1 id="prize">賞品</h1>
 
             <h2>優勝賞品</h2>
             <div class="prize-list">
-                <div>
+                <div class="prize1">
                     <p><img src="images/100-DESKG003_FT18DX.jpg" alt="優勝賞品1"></p>
                     <small>ゲーミングデスク</small>
                     <p>「100-DESKG003」</p>
                 </div>
-                <div>
-                    <p><img src="images/Premiumカーボンブラック_1.jpg" alt="優勝賞品2"></p>
+                <div class="prize2">
+                    <p><img src="images/Premiumcarbonblack_1.jpg" alt="優勝賞品2"></p>
                     <small>ゲーミングチェア</small>
                     <p>「AKR-PREMIUM」</p>
                 </div>
-                <div>
-                    <p><img src="images/キーバ エナジー ドリンク.jpg" alt="優勝賞品3"></p>
+                <div class="prize3">
+                    <p><img src="images/kiivaenergydrink.png" alt="優勝賞品3"></p>
                     <small>エナジードリンク</small>
                     <p>「キーバ 500ml x 24本(KiiVA)」</p>
                 </div>
@@ -117,87 +125,165 @@
 
             <h2>上位入賞者</h2>
             <div class="prize-list">
-                <div>
-                    <p><img src="images/Premiumカーボンブラック_1.jpg" alt="優勝賞品2"></p>
+                <div class="prize2">
+                    <p><img src="images/Premiumcarbonblack_1.jpg" alt="優勝賞品2"></p>
                     <small>ゲーミングチェア</small>
                     <p>「AKR-PREMIUM」</p>
                 </div>
-                <div>
+                <div class="prize4">
                     <p><img src="images/400-MC022_FT3DX.jpg" alt="優勝賞品2"></p>
                     <small>USBコンデンサーマイク</small>
                     <p>「400-MC022」</p>
                 </div>
-                <div>
-                    <p><img src="images/キーバ エナジー ドリンク.jpg" alt="優勝賞品3"></p>
+                <div class="prize3">
+                    <p><img src="images/kiivaenergydrink.png" alt="優勝賞品3"></p>
                     <small>エナジードリンク</small>
                     <p>「キーバ 500ml x 24本(KiiVA)」</p>
                 </div>
             </div>
         </div>
 
-        <!-- パララックス背景1 -->
+        <!-- パララックス背景3 -->
         <div class="bg3"></div>
 
         <!-- Cコンテンツ1 -->
-        <div class="guest-list">
-            <h1>ゲスト</h1>
-            <div class="guest">
-                <p><img src="images/kosuke （解説者）.jpg" alt="kosuke"></p>
-                <p class="guest-name">kosuke</p>
-                <p>解説者</p>
-                <div class="sns-icon">
-                    <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-                    <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+        <div class="guests">
+            <h1 id="guest">ゲスト</h1>
+            <div class="guest-list1">
+                <div class="guest">
+                    <p><img src="images/kosuke.jpg" alt="kosuke"></p>
+                    <p class="guest-name">kosuke</p>
+                    <p>解説者</p>
+                    <div class="sns-icon">
+                        <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
+                        <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+                    </div>
+                </div>
+                <div class="guest">
+                    <p><img src="images/gaimon.jpg" alt="ガイモン"></p>
+                    <p class="guest-name">ガイモン</p>
+                    <p>実況者</p>
+                    <div class="sns-icon">
+                        <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
+                        <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+                    </div>
                 </div>
             </div>
-            <div class="guest">
-                <p><img src="images/ガイモン（実況者）.jpg" alt="ガイモン"></p>
-                <p class="guest-name">ガイモン</p>
-                <p>実況者</p>
-                <div class="sns-icon">
-                    <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-                    <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+            <div class="guest-list2">
+                <div class="guest">
+                    <p><img src="images/su.png" alt="スー☆"></p>
+                    <p class="guest-name">スー☆</p>
+                    <p>プロ選手、解説者</p>
+                    <div class="sns-icon">
+                        <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
+                        <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+                    </div>
                 </div>
             </div>
-            <div class="guest">
-                <p><img src="images/スー☆　（プロ選手、解説者）.jpg" alt="スー☆"></p>
-                <p class="guest-name">スー☆</p>
-                <p>プロ選手、解説者</p>
-                <div class="sns-icon">
-                    <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-                    <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+        </div>
+
+        <!-- パララックス背景4 -->
+        <div class="bg4"></div>
+
+        <!-- Kコンテンツ1 -->
+        <div class="result-list">
+            <h1 id="result">大会結果</h1>
+
+            <h2>優勝者</h2>
+            <div class="champion">
+                <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
+                <small>優勝者名</small>
+            </div>
+
+            <h2 class="h2-winners">入賞者</h2>
+            <div class="winners-list">
+                <div class="winners">
+                    <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
+                    <small>参加者名</small>
+                </div>
+                <div class="winners">
+                    <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
+                    <small>参加者名</small>
+                </div>
+                <div class="winners">
+                    <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
+                    <small>参加者名</small>
                 </div>
             </div>
         </div>
 
         <div class="tamadora-button">
             <p><img src="images/tamadora.png" alt="たまドラ"></p>
-            <p><a href="#" target="_blank" rel=”noopener noreferrer”>大会規約(PDF)　></a></p>
+            <p><a href="result">大会結果ページへ　></a></p>
         </div>
 
-        <!-- パララックス背景1 -->
-        <div class="bg4"></div>
+        <!-- パララックス背景5 -->
+        <div class="bg5"></div>
 
-        <div class="result-list">
-            <h1>大会結果</h1>
-
-            <h2>優勝者</h2>
-            <div class="champion">
+        <!-- Uコンテンツ2 -->
+        <div class="gallery">
+            <h1 id="gallery">ギャラリー</h1>
+            <div class="gallery-images">
+                <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
+                <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
                 <p><img src="images/comingsoon.jpeg" alt="comingsoon"></p>
             </div>
-
-            <h2>入賞者</h2>
         </div>
 
-        <div>
-            <ul>
-            </ul>
+        <div class="tamadora-button">
+            <p><img src="images/tamadora.png" alt="たまドラ"></p>
+            <p><a href="#" target="_blank" rel=”noopener noreferrer”>ギャラリーページへ　></a></p>
+        </div>
+
+        <!-- パララックス背景6 -->
+        <div class="bg6"></div>
+
+        <!-- Gコンテンツ1 -->
+        <div class="digests" id="digests">
+            <h1 id="digest">大会ダイジェストムービー</h1>
+            <video controls>
+                <source src="images/cm-ver3.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="tamadora-button">
+            <p><img src="images/tamadora.png" alt="たまドラ"></p>
+            <p><a href="#">ダイジェストムービー一覧へ　></a></p>
+        </div>
+
+        <!-- パララックス背景7 -->
+        <div class="bg7"></div>
+
+        <!-- Gコンテンツ2 -->
+        <div class="news">
+            <h1 id="news">ニュース</h1>
+            <div class="news-list">
+                <small class="date">YYYY/MM/dd</small>
+                <h2>ニュースタイトル</h2>
+                <form action="">
+                    <input type="submit" value="詳細へ >">
+                </form>
+            </div>
         </div>
 
     </main>
 
     <footer>
-
+        <nav class="footer-navigation">
+            <ul class="left">
+                <li><a href="#">・企業商品紹介</a></li>
+                <li><a href="result">・大会結果</a></li>
+                <li><a href="#">・ギャラリー</a></li>
+                <li><a href="#">・大会ダイジェストムービー</a></li>
+                <li><a href="#">・ニュース</a></li>
+                <li><a href="#">・大会規約</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+                <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+                <li><a href="#">・大会ランディングページ</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
