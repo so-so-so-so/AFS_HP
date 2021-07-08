@@ -10,6 +10,7 @@
 
 <body>
   {{$news}}
+  {{$news[0]->title}}
 </body>
 
 </html>
