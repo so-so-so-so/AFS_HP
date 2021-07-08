@@ -284,9 +284,11 @@
         <li><a href="#">大会規約</a></li>
       </ul>
       <ul class="right">
-        <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
-        <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
         <li><a href="#">大会ランディングページ</a></li>
+        <div>
+          <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+          <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+        </div>
       </ul>
     </nav>
   </footer>

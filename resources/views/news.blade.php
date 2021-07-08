@@ -22,7 +22,6 @@
       </form>
     </div>
     @endforeach
-    <a href="/news">詳細</a>
   </div>
 </body>
 
