@@ -8,6 +8,7 @@
   <title>newsdetail</title>
   <link rel="stylesheet" href="css/sanitize.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
@@ -17,23 +18,12 @@
     </div>
     <nav class="header-navigation">
       <ul class="left">
-        <li class="left-first"><a href="#">HOME</a></li>
+        <li class="left-first"><a href="/">HOME</a></li>
         <li>
-          <ul class="left-second">
-            <li><a href="#">大会ルール</a></li>
-            <li><a href="#">賞品</a></li>
-            <li><a href="#">ゲスト</a></li>
-            <li><a href="#">大会結果</a></li>
-            <li><a href="#">ギャラリー</a></li>
-            <li><a href="#">大会ダイジェストムービー</a></li>
-            <li><a href="#">ニュース</a></li>
-          </ul>
         </li>
       </ul>
       <ul class="right">
-        <li><a href="#">企業商品紹介</a></li>
-        <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
-        <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+        <li class="right-first"><a href="/">企業商品紹介</a></li>
       </ul>
     </nav>
   </header>

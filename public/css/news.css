@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+main h1 {
+    margin: 110px;
+    text-align: center;
+    font-size: 2rem;
+    color: #5cc882;
+    line-height: 70px;
+}
+.news {
+    padding: 30px 0;
+    width: 55.5%;
+    margin: 0 auto 100px;
+}
+.news .news-list {
+    width: 100%;
+    border: 1px solid #000;
+    position: relative;
+}
+.news .date {
+    display: block;
+    font-size: 0.75rem;
+}
+.news h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+.news input {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.news input:hover {
+    background-color: #ccc;
+}
+.news div:nth-child(even) {
+    background-color: #eee;
+}
+.news div:nth-child(odd) {
+    background-color: #cccccc;
+}
+.news-list .titles {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.titles .thumbnail {
+    width: 30%;
+}
+.titles h2 {
+    margin-left: 10px;
+    width: 65%;
+    text-align: left;
+}
+.thumbnail img {
+    width: 100%;
+}
+.tamadora-button {
+    margin: 0 auto 100px;
+    width: 14%;
+}
+.tamadora-button:hover {
+    cursor: pointer;
+}
+.tamadora-button p,
+.tamadora-button img {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #da464f;
+}
+.tamadora-button a:visited {
+    color: #da464f;
+}

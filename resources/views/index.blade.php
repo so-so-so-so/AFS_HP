@@ -7,10 +7,25 @@
   <title>AEON Financial Service X HAL東京 パズドラカップ</title>
   <link rel="stylesheet" href="css/sanitize.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
   <header>
+    <input type="checkbox" id="navTgl">
+    <label for="navTgl" class="open">≡</label>
+    <label for="navTgl" class="close"></label>
+    <nav class="menu">
+      <h2>menu</h2>
+      <ul>
+        <li><a href="#article1">大会ルール</a></li>
+        <li><a href="#article2">商品</a></li>
+        <li><a href="#article3">ゲスト</a></li>
+        <li><a href="#article4">大会結果</a></li>
+        <li><a href="#article5">大会ダイジェストムービー</a></li>
+        <li><a href="#article6">ニュース</a></li>
+      </ul>
+    </nav>
     <div class="logo">
       <img src="images/aeonxhal_logo.png" alt="サイトロゴ">
     </div>
@@ -30,9 +45,9 @@
         </li>
       </ul>
       <ul class="right">
-        <li><a href="#">企業商品紹介</a></li>
-        <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
-        <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+        <li class="right-first"><a href="#">企業商品紹介</a></li>
+        <!-- <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+        <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li> -->
       </ul>
     </nav>
   </header>
@@ -259,7 +274,7 @@
     <div class="news">
       <h1 id="news">ニュース</h1>
       @for ($i = 0 ; $i < 3;$i++) <div class="news-list">
-        <small class="date">{{$news[$i]->released_at}}</small>
+        <small class="date">@if($news[$i]->released_at != null){{$news[$i]->released_at}}@else YYYY/MM/DD @endif</small>
         <h2>{{$news[$i]->title}}</h2>
         <form method="POST" action="/detail">
           @csrf
@@ -286,8 +301,8 @@
       <ul class="right">
         <li><a href="#">大会ランディングページ</a></li>
         <div>
-          <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
-          <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+          <li><a href="#"><img class="twitter" src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+          <li><a href="#"><img class="youtube" src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
         </div>
       </ul>
     </nav>
