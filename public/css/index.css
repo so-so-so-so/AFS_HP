@@ -4,90 +4,10 @@ body {
     width: 100vw;
     font-family: Yu-Gothic;
     font-size: 16px;
+    margin: 0;
 }
 ul li {
     list-style: none;
-}
-
-/* ヘッダー */
-header {
-    width: 100%;
-}
-header .logo {
-    width: 36%;
-    margin: 0 auto;
-}
-header .logo img {
-    width: 100%;
-}
-header .header-navigation {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #666666;
-}
-header .left {
-    margin: 0;
-    width: 25%;
-    position: relative;
-    transition: ease-in-out 0.3s;
-}
-header .left .left-first {
-    margin: 0 auto;
-    width: 100%;
-    border-right: #ccc 2px solid;
-    border-left: #ccc 2px solid;
-}
-/* header .left .left-first a {
-    margin: 0 20px;
-    padding: 0 10px;
-} */
-header ul li {
-    display: inline-block;
-    font-size: 1.3rem;
-}
-header ul li a {
-    display: block;
-    padding: 10px;
-}
-header .left .left-second {
-    position: absolute;
-    top: 75px;
-    left: 20px;
-    display: block;
-}
-header .left .left-second li {
-    display: none;
-    opacity: 0;
-}
-header .left:hover .left-second li {
-    display: block;
-    background-color: #666666;
-    opacity: 1;
-}
-/* header .left li .left-second li {
-    display: block;
-} */
-header .right {
-    margin-left: 30px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header .right li {
-    width: 40%;
-}
-header .right li:nth-child(2),
-header .right li:nth-child(3) {
-    width: 15%;
-}
-
-header .right li img {
-    width: 100%;
 }
 
 .mainvisual,
@@ -288,7 +208,7 @@ main h1 {
 
 .tamadora-button {
     margin: 0 auto 100px;
-    width: 14%;
+    width: 20%;
 }
 .tamadora-button:hover {
     cursor: pointer;
@@ -309,6 +229,7 @@ main h1 {
 .prize {
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 110px;
 }
 .prize h2 {
     text-align: center;
@@ -478,6 +399,7 @@ main h1 {
 .digests {
     width: 80%;
     margin: 0 auto;
+    margin-top: 110px;
 }
 .digests video {
     width: 100%;
@@ -485,7 +407,8 @@ main h1 {
 
 /* Gコンテンツ2 */
 .news {
-    width: 32.2%;
+    padding: 30px 0;
+    width: 55.5%;
     margin: 0 auto 100px;
 }
 .news .news-list {
@@ -521,66 +444,10 @@ main h1 {
     background-color: #cccccc;
 }
 
-footer {
-    margin: 0;
-    padding: 70px 0;
-    width: 100%;
-    background: url("../images/emblem.png") no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: rgba(0, 0, 0, 0.3);
-    font-size: 1.3rem;
-    line-height: 2em;
-}
-footer .footer-navigation {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
-}
-.footer-navigation .left {
-    margin: 0 auto;
-    width: 100%;
-}
-.footer-navigation .left li {
-    margin: 0 auto;
-    display: block;
-}
-footer .footer-navigation li a {
-    color: #fff;
-    text-decoration: none;
-}
-footer .footer-navigation li img {
-    width: 100%;
-}
-.footer-navigation .right {
-    width: 30%;
-}
-.footer-navigation .right div {
-    width: 100%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-.footer-navigation .right div li {
-    margin-top: 20px;
-    width: 35%;
-    display: block;
-}
-
 /* モバイル */
 @media screen and (max-width: 479px) {
     body {
         width: 100vw;
-    }
-    header .logo {
-        width: 70%;
-    }
-    .header-navigation,
-    .mainvisual {
-        display: none !important;
     }
 
     main {
