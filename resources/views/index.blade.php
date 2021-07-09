@@ -157,8 +157,8 @@
           <p class="guest-name">kosuke</p>
           <p>解説者</p>
           <div class="sns-icon">
-            <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-            <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+            <p class="youtube"><a href="https://www.youtube.com/channel/UCHTWZvJOz1pPedcZNe6QBwg" target="_blank" rel=”noopener noreferrer”><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></p>
+            <p class="twitter"><a href="https://twitter.com/kosukepad1/media" target="_blank" rel=”noopener noreferrer”><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></p>
           </div>
         </div>
         <div class="guest">
@@ -166,8 +166,8 @@
           <p class="guest-name">ガイモン</p>
           <p>実況者</p>
           <div class="sns-icon">
-            <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-            <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+            <p class="youtube"><a href="https://www.youtube.com/user/gaimoooonpad" target="_blank" rel=”noopener noreferrer”><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></p>
+            <p class="twitter"><a href="https://twitter.com/gaimoooon" 　target="_blank" rel=”noopener noreferrer”><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></p>
           </div>
         </div>
       </div>
@@ -177,8 +177,8 @@
           <p class="guest-name">スー☆</p>
           <p>プロ選手、解説者</p>
           <div class="sns-icon">
-            <p class="youtube"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></p>
-            <p class="twitter"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></p>
+            <p class="youtube"><a href="https://www.youtube.com/channel/UCQroUtPIMKyVFulhROUItog" target="_blank" rel=”noopener noreferrer”><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></p>
+            <p class="twitter"><a href="https://twitter.com/miomio97" target="_blank" rel=”noopener noreferrer”><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></p>
           </div>
         </div>
       </div>
