@@ -249,7 +249,7 @@
 
     <div class="tamadora-button">
       <p><img src="images/tamadora.png" alt="たまドラ"></p>
-      <p><a href="#">ダイジェストムービー一覧へ　></a></p>
+      <p><a href="#">ダイジェストムービー一覧へ　</a></p>
     </div>
 
     <!-- パララックス背景7 -->
