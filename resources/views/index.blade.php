@@ -234,7 +234,7 @@
 
     <div class="tamadora-button">
       <p><img src="images/tamadora.png" alt="たまドラ"></p>
-      <p><a href="#" target="_blank" rel=”noopener noreferrer”>ギャラリーページへ　></a></p>
+      <p><a href="gallery" target="_blank" rel=”noopener noreferrer”>ギャラリーページへ　></a></p>
     </div>
 
     <!-- パララックス背景6 -->
