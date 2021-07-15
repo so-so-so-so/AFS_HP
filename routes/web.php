@@ -15,3 +15,5 @@
 Route::get('/', 'AFSmainController@index');
 Route::get('/result','AFSmainController@result');
 Route::get('/gallery','AFSmainController@gallery');
+Route::get('/news','AFSmainController@news');
+

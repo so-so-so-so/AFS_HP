@@ -1,20 +1,38 @@
-.tournament_area{
+@charset "utf-8";
+
+body {
+    width: 100vw;
+}
+h1 {
+    margin: 110px;
     text-align: center;
+    font-size: 2rem;
+    color: #5cc882;
+    line-height: 70px;
+}
+.tournament_area{
+    width: 90%;
+    margin: 0 auto;
+}
+.tournament_area img {
+    width: 100%;
 }
 
 .higher{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 5%;
+    margin: 0 auto 100px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
 }
 .higher img{
-    width: 20%;
-    margin: 0 2.5%;
+    width: 100%;
 }
 
-h2{
-    margin-left: 10%;
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #da464f;
 }
 
 .tournament_result{
@@ -28,14 +46,44 @@ h2{
 
 .tournament_result p{
     text-align: center;
-    margin:auto 10% auto 10%; 
     font-size: 40px;
 }
 
-/* .qualifyin_gresult{
-    
+.qualifyin_gresult{
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
 }
-
-.interview{
-
-} */
+.qualifyin_gresult h3 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.qualifyin_gresult div {
+    width: 80%;
+    margin: 0 auto;
+}
+.interview {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tamadora-button {
+    margin: 0 auto 100px;
+    width: 14%;
+}
+.tamadora-button:hover {
+    cursor: pointer;
+}
+.tamadora-button p,
+.tamadora-button img {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #da464f;
+}
+.tamadora-button a:visited {
+    color: #da464f;
+}

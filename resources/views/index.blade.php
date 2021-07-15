@@ -6,6 +6,7 @@
     <title>AEON Financial Service X HAL東京 パズドラカップ</title>
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <header>
