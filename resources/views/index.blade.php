@@ -8,9 +8,23 @@
   <link rel="stylesheet" href="css/sanitize.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/loading.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/loading.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
+    <div class="loading">
+        <div class="animation">      
+        <video class="video">
+            <source src="video/6seconds.mp4" type="video/mp4">
+        </video>
+        </div>
+    </div>
+
+
   <header>
     <input type="checkbox" id="navTgl">
     <label for="navTgl" class="open">≡</label>
