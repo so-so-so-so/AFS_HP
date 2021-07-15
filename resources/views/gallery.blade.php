@@ -27,7 +27,7 @@
         </li>
       </ul>
       <ul class="right">
-        <li class="right-first"><a href="/">企業商品紹介</a></li>
+        <li class="right-first"><a href="https://www.aeoncredit.co.jp/" target="_blank" rel=”noopener noreferrer”>企業商品紹介</a></li>
       </ul>
     </nav>
   </header>
