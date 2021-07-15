@@ -52,7 +52,7 @@
   <div class="swiper-pagination"></div>
 
   <div class="return-button">
-    <button>戻る</button>
+    <button><a href="/">戻る</a></button>
   </div>
   <footer>
     <nav class="footer-navigation">
