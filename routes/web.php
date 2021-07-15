@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +15,7 @@
 
 //トップページ
 Route::get('/', 'AFSmainController@index');
-Route::get('/result','AFSmainController@result');
-Route::get('/gallery','AFSmainController@gallery');
-Route::get('/news','AFSmainController@news');
-
+Route::get('/result', 'AFSmainController@result');
+Route::get('/gallery', 'AFSmainController@gallery');
+Route::post('/detail', 'AFSmainController@detail');
+Route::get('/news', 'AFSmainController@news');

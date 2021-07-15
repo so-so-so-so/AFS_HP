@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 body {
+<<<<<<< HEAD
+=======
+    margin: 0;
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9
     width: 100vw;
 }
 h1 {
@@ -10,7 +14,11 @@ h1 {
     color: #5cc882;
     line-height: 70px;
 }
+<<<<<<< HEAD
 .tournament_area{
+=======
+.tournament_area {
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9
     width: 90%;
     margin: 0 auto;
 }
@@ -18,13 +26,21 @@ h1 {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .higher{
+=======
+.higher {
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9
     margin: 0 auto 100px;
     width: 70%;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
 }
+<<<<<<< HEAD
 .higher img{
+=======
+.higher img {
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9
     width: 100%;
 }
 
@@ -35,7 +51,7 @@ h2 {
     color: #da464f;
 }
 
-.tournament_result{
+.tournament_result {
     width: 80%;
     height: auto;
     margin-left: auto;
@@ -44,12 +60,16 @@ h2 {
     justify-content: center;
 }
 
-.tournament_result p{
+.tournament_result p {
     text-align: center;
     font-size: 40px;
 }
 
+<<<<<<< HEAD
 .qualifyin_gresult{
+=======
+.qualifyin_gresult {
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9
     width: 100%;
     margin: 0 auto;
     background-color: aliceblue;
@@ -86,4 +106,8 @@ h2 {
 }
 .tamadora-button a:visited {
     color: #da464f;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> af451734f98090a644a4e69a58269447b7ed13b9

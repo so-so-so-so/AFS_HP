@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/sanitize.css">
-  <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/menu.css">
   <title>news</title>
 </head>
 
@@ -45,8 +45,8 @@
       <div class="news-list">
         <small class="date">{{$val->released_at}}</small>
         <div class="titles">
-            <p class="thumbnail"><img src="images/emblem.png" alt="test"></p>
-            <h2>{{$val->title}}</h2>
+          <p class="thumbnail"><img src="{{$val->image_path}}" alt="image"></p>
+          <h2>{{$val->title}}</h2>
         </div>
         <form method="POST" action="/detail">
           @csrf
@@ -64,18 +64,18 @@
   <footer>
     <nav class="footer-navigation">
       <ul class="left">
-        <li><a href="#">企業商品紹介</a></li>
-        <li><a href="#">大会結果</a></li>
-        <li><a href="#">ギャラリー</a></li>
-        <li><a href="#">大会ダイジェストムービー</a></li>
-        <li><a href="#">ニュース</a></li>
-        <li><a href="#">大会規約</a></li>
+        <li><a href="/">企業商品紹介</a></li>
+        <li><a href="/">大会結果</a></li>
+        <li><a href="/">ギャラリー</a></li>
+        <li><a href="/">大会ダイジェストムービー</a></li>
+        <li><a href="/">ニュース</a></li>
+        <li><a href="/">大会規約</a></li>
       </ul>
       <ul class="right">
         <li><a href="#">大会ランディングページ</a></li>
         <div>
-          <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
-          <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
+          <li><a href="#"><img class="twitter" src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
+          <li><a href="#"><img class="youtube" src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li>
         </div>
       </ul>
     </nav>

@@ -4,6 +4,7 @@ body {
     width: 100vw;
     font-family: Yu-Gothic;
     font-size: 16px;
+    margin: 0;
 }
 ul li {
     list-style: none;
@@ -23,7 +24,7 @@ main h1 {
 
 .bg1 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ main h1 {
 }
 .bg2 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@ main h1 {
 }
 .bg3 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -65,7 +66,7 @@ main h1 {
 }
 .bg4 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -79,7 +80,7 @@ main h1 {
 }
 .bg5 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -93,7 +94,7 @@ main h1 {
 }
 .bg6 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -107,7 +108,7 @@ main h1 {
 }
 .bg7 {
     box-sizing: border-box;
-    color: #FFF;
+    color: #fff;
     font-size: 5rem;
     display: flex;
     align-items: center;
@@ -135,7 +136,7 @@ main h1 {
 .rules .left {
     width: 50%;
 }
-.rules  img {
+.rules img {
     width: 120%;
 }
 .rules .row1 .left,
@@ -207,7 +208,7 @@ main h1 {
 
 .tamadora-button {
     margin: 0 auto 100px;
-    width: 14%;
+    width: 20%;
 }
 .tamadora-button:hover {
     cursor: pointer;
@@ -228,6 +229,7 @@ main h1 {
 .prize {
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 110px;
 }
 .prize h2 {
     text-align: center;
@@ -397,6 +399,7 @@ main h1 {
 .digests {
     width: 80%;
     margin: 0 auto;
+    margin-top: 110px;
 }
 .digests video {
     width: 100%;
@@ -404,7 +407,8 @@ main h1 {
 
 /* Gコンテンツ2 */
 .news {
-    width: 32.2%;
+    padding: 30px 0;
+    width: 55.5%;
     margin: 0 auto 100px;
 }
 .news .news-list {
@@ -444,13 +448,6 @@ main h1 {
 @media screen and (max-width: 479px) {
     body {
         width: 100vw;
-    }
-    header .logo {
-        width: 70%;
-    }
-    .header-navigation,
-    .mainvisual {
-        display: none !important;
     }
 
     main {
@@ -703,7 +700,7 @@ main h1 {
         padding: 20px;
         width: 100%;
         background: none;
-        background-color: rgba(0, 0, 0, .3);
+        background-color: rgba(0, 0, 0, 0.3);
         font-size: 0.8rem;
         line-height: 2em;
     }
@@ -739,7 +736,7 @@ main h1 {
         align-items: baseline;
         justify-content: space-around;
     }
-    .footer-navigation .right div li{
+    .footer-navigation .right div li {
         margin-top: 20px;
         width: 30%;
         display: block;
