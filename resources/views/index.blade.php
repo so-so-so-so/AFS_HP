@@ -32,12 +32,13 @@
     <nav class="menu">
       <h2>menu</h2>
       <ul>
-        <li><a href="#article1">大会ルール</a></li>
-        <li><a href="#article2">商品</a></li>
-        <li><a href="#article3">ゲスト</a></li>
-        <li><a href="#article4">大会結果</a></li>
-        <li><a href="#article5">大会ダイジェストムービー</a></li>
-        <li><a href="#article6">ニュース</a></li>
+        <li><a href="#rules">大会ルール</a></li>
+        <li><a href="#prize">賞品</a></li>
+        <li><a href="#guest">ゲスト</a></li>
+        <li><a href="#result">大会結果</a></li>
+        <li><a href="#gallery">ギャラリー</a></li>
+        <li><a href="#digests">大会ダイジェストムービー</a></li>
+        <li><a href="#news">ニュース</a></li>
       </ul>
     </nav>
     <div class="logo">
@@ -48,13 +49,13 @@
         <li class="left-first"><a href="#">HOME</a></li>
         <li>
           <ul class="left-second">
-            <li><a href="#">大会ルール</a></li>
-            <li><a href="#">賞品</a></li>
-            <li><a href="#">ゲスト</a></li>
-            <li><a href="#">大会結果</a></li>
-            <li><a href="#">ギャラリー</a></li>
-            <li><a href="#">大会ダイジェストムービー</a></li>
-            <li><a href="#">ニュース</a></li>
+            <li><a href="#rules">大会ルール</a></li>
+            <li><a href="#prize">賞品</a></li>
+            <li><a href="#guest">ゲスト</a></li>
+            <li><a href="#result">大会結果</a></li>
+            <li><a href="#gallery">ギャラリー</a></li>
+            <li><a href="#digests">大会ダイジェストムービー</a></li>
+            <li><a href="#news">ニュース</a></li>
           </ul>
         </li>
       </ul>
