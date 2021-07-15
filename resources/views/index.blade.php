@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <div class="loading">
-        <div class="animation">      
-        <video class="video">
-            <source src="video/6seconds.mp4" type="video/mp4">
-        </video>
-        </div>
+  <div class="loading">
+    <div class="animation">
+      <video class="video" muted>
+        <source src="video/6seconds.mp4" type="video/mp4">
+      </video>
     </div>
+  </div>
 
 
   <header>
@@ -59,7 +59,7 @@
         </li>
       </ul>
       <ul class="right">
-        <li class="right-first"><a href="#">企業商品紹介</a></li>
+        <li class="right-first"><a href="https://www.aeoncredit.co.jp/" target="_blank" rel=”noopener noreferrer”>企業商品紹介</a></li>
         <!-- <li><a href="#"><img src="images/Twitter social icons - rounded square - blue.png" alt="twitterアイコン"></a></li>
         <li><a href="#"><img src="images/yt_icon_rgb.png" alt="youtubeアイコン"></a></li> -->
       </ul>
